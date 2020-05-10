@@ -11,7 +11,7 @@ Gradual reveal of a film still - players can complete on Kahoot to name it first
 
 ### Prerequisites
 
-You need python and these 2 pip (conda packages)
+You need python and these 2 pip (pip/conda packages)
 * pygame  
     * https://pypi.org/project/pygame/
 * python dateutil 
