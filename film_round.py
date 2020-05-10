@@ -17,10 +17,10 @@ WINDOWWIDTH = 1200  # size of window's width in pixels
 WINDOWHEIGHT = int(WINDOWWIDTH * 9 / 16)  # size of windows' height in pixels
 
 if args.directory:
-    if path.isdir(parser.directory):
-        PIC_FOLDER = parser.directory
+    if path.isdir(args.directory):
+        PIC_FOLDER = args.directory
     else:
-        raise Exception(f'the provided directory path = {parser.directory} is not valid')
+        raise Exception(f'the provided directory path = {args.directory} is not valid')
 else:
     # noting provided, lets use the example directory
     dir, file = path.split(__file__)
