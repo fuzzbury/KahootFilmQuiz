@@ -9,6 +9,12 @@ Gradual reveal of a film still - players can complete on Kahoot to name it first
   
 ![How to use with Kahoot](docs/UsageScreenshot.png?raw=true "How to use with Kahoot")  
 
+
+### Arguments
+If you run it without arguments you get the example clips
+To provide your own clips use the directory argument eg
+* > python.exe film_round.py --directory C:\Documents\FilmRound20200508
+
 ### Prerequisites
 
 You need python and these 2 pip (pip/conda packages)
