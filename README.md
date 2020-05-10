@@ -7,11 +7,11 @@ Gradual reveal of a film still - players can complete on Kahoot to name it first
   * Host quiz on zoom with screen share
   * Use this App to do the actual reveal
   
-![Screenshot](UsageScreenshot.png)  
+![How to use with Kahoot](docs/UsageScreenshot.png?raw=true "How to use with Kahoot")  
 
 ### Prerequisites
 
-You need python and these 2 pip (conda packages)
+You need python and these 2 pip (pip/conda packages)
 * pygame  
     * https://pypi.org/project/pygame/
 * python dateutil 
