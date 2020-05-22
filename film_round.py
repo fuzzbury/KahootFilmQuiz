@@ -9,6 +9,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--directory", help="full directory path of the clips you want to use")
+parser.add_argument("--quiz", help="default quiz to use", default=1)
 args = parser.parse_args()
 
 FPS = 30  # frames per second, the general speed of the program
@@ -24,7 +25,7 @@ if args.directory:
 else:
     # noting provided, lets use the example directory
     dir, file = path.split(__file__)
-    PIC_FOLDER = path.join(dir, 'example_quiz')
+    PIC_FOLDER = path.join(dir, f'example_quiz{args.quiz}')
 
 #            R    G    B
 GRAY = (100, 100, 100)
