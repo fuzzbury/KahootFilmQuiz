@@ -6,8 +6,15 @@ Gradual reveal of a film still - players can complete on Kahoot to name it first
   * Create a quiz with a load of questions (all will be "What film is this?" and 4 possible answers)
   * Host quiz on zoom with screen share
   * Use this App to do the actual reveal
-* This is the Kahoot quiz that goes with the example 
-  * https://create.kahoot.it/details/85d27bb5-c9b4-47f7-a984-4b1b6e69e0c9
+* This is the Kahoot quiz that goes with the example
+	* quiz1
+		* https://create.kahoot.it/share/film-tv/85d27bb5-c9b4-47f7-a984-4b1b6e69e0c9
+
+	* quiz2
+		* https://create.kahoot.it/share/film-quiz-2/e1a2df11-a264-4ce8-a722-2f15f6113d8f
+
+	* quiz3
+		* https://create.kahoot.it/share/film-quiz-3/858cdf4d-d331-44f7-9077-432a4780d5b7
   
 ![How to use with Kahoot](docs/UsageScreenshot.png?raw=true "How to use with Kahoot")  
 

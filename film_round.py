@@ -7,6 +7,16 @@ from dateutil import relativedelta
 
 import argparse
 
+#quiz1
+#https://create.kahoot.it/share/film-tv/85d27bb5-c9b4-47f7-a984-4b1b6e69e0c9
+
+#quiz2
+#https://create.kahoot.it/share/film-quiz-2/e1a2df11-a264-4ce8-a722-2f15f6113d8f
+
+#quiz3
+#https://create.kahoot.it/share/film-quiz-3/858cdf4d-d331-44f7-9077-432a4780d5b7
+
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--directory", help="full directory path of the clips you want to use")
 parser.add_argument("--quiz", help="default quiz to use", default=3)
