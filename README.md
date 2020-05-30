@@ -20,7 +20,13 @@ Gradual reveal of a film still - players can complete on Kahoot to name it first
 
 
 ### Arguments
-If you run it without arguments you get the example clips
+If you run it without arguments you get the example quiz 1 clips
+
+To run it with the other example quizes eg
+* > python.exe film_round.py --quiz 2
+* > python.exe film_round.py --quiz 3
+* > etc
+
 To provide your own clips use the directory argument eg
 * > python.exe film_round.py --directory C:\Documents\FilmRound20200508
 
